@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>PudgeWear</title>
+    <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+<img src="img/company-logo.png" alt="PudgeWear" class="company-logo" draggable="false">
+
+<div class="interface">
+
+    <img src="img/reload.png" draggable="false" class="reload" id="inventory_reload">
+
+    <div class="pudge" id="heroPudge">
+        <img src="img/pudge.png" alt="Pudge" class="hero" draggable="false">
+
+    </div>
+        <div class = "Items">
+        <div class="glass pudgeSlot"></div>
+        <div class="necklace1 pudgeSlot"></div>
+        <div class="necklace2 pudgeSlot"></div>
+        <div class="shield pudgeSlot"></div>
+        <div class="head pudgeSlot"></div>
+        <div class="torso pudgeSlot"></div>
+        <div class="legs pudgeSlot"></div>
+        <div class="foots pudgeSlot"></div>
+    </div>
+
+    <div class="find_nav">
+
+        <form action="#" class="search-field">
+            <input type="text" class="search" placeholder="Поиск по названию">
+            <img src="img/search-logo.png" alt="Поиск" class="search-logo">
+        </form>
+
+        <select class="sort" required="required">
+            <option value="">Сортировать по </option>
+            <option value="1">Редкости</option>
+            <option value="2">Названию</option>
+        </select>
+
+    </div>
+
+    <div class="inventory" id="Inventory"></div>
+
+</div>
+<script src = "game.js"></script>
+</body>
+</html>

@@ -1,0 +1,500 @@
+@import "nullstyle.css";
+.company-logo {
+  position: absolute;
+  width: 10.3553vw;
+  height: 14.9484vh;
+  left: 2.3958vw;
+  top: 0.625vh;
+}
+
+.interface {
+  box-sizing: border-box;
+  position: absolute;
+  width: 71.4583vw;
+  height: 73.81vh;
+  background: #2D2D38;
+  left: 13.021vw;
+  top: 18.763vh;
+  border: 3px solid #000000;
+  border-radius: 23px;
+}
+.interface .reload {
+  position: absolute;
+  width: 2.6041vw;
+  height: 5.1546vh;
+  left: 67.7083vw;
+  top: 1.5464vh;
+}
+.interface .pudge {
+  position: absolute;
+  width: 21.4583vw;
+  height: 47.0103vh;
+  background: #514747;
+  left: 5.1041vw;
+  top: 12.268vh;
+  border: 3px solid #000000;
+  border-radius: 29px;
+}
+.interface .pudge .glass_on_Pudge {
+  position: absolute;
+  width: 4.1666vw;
+  height: 5.1546vh;
+  left: 0px;
+  top: 0px;
+  background-size: 4.1666vw 5.1546vh;
+}
+.interface .pudge .necklace1_on_Pudge {
+  position: absolute;
+  width: 4.1666vw;
+  height: 5.1546vh;
+  left: 0px;
+  top: 0px;
+  background-size: 4.1666vw 5.1546vh;
+}
+.interface .pudge .necklace2_on_Pudge {
+  position: absolute;
+  width: 4.1666vw;
+  height: 5.1546vh;
+  left: 0px;
+  top: 0px;
+  background-size: 4.1666vw 5.1546vh;
+}
+.interface .pudge .shield_on_Pudge {
+  position: absolute;
+  width: 4.1666vw;
+  height: 5.1546vh;
+  left: 0px;
+  top: 0px;
+  background-size: 4.1666vw 5.1546vh;
+}
+.interface .pudge .head_on_Pudge {
+  position: absolute;
+  width: 4.1666vw;
+  height: 5.1546vh;
+  left: 0px;
+  top: 0px;
+  background-size: 4.1666vw 5.1546vh;
+}
+.interface .pudge .torso_on_Pudge {
+  position: absolute;
+  width: 4.1666vw;
+  height: 5.1546vh;
+  left: 0px;
+  top: 0px;
+  background-size: 4.1666vw 5.1546vh;
+}
+.interface .pudge .legs_on_Pudge {
+  position: absolute;
+  width: 4.1666vw;
+  height: 5.1546vh;
+  left: 0px;
+  top: 0px;
+  background-size: 4.1666vw 5.1546vh;
+}
+.interface .pudge .foots_on_Pudge {
+  position: absolute;
+  width: 4.1666vw;
+  height: 5.1546vh;
+  left: 0px;
+  top: 0px;
+  background-size: 4.1666vw 5.1546vh;
+}
+.interface .pudge .hero {
+  width: 100%;
+  height: 100%;
+}
+.interface .glass {
+  background: url(../img/inventory-glass-logo.png);
+  position: absolute;
+  width: 4.0104vw;
+  height: 4.0104vw;
+  left: 28.0729vw;
+  top: 15.3608vh;
+  border: 4px solid #000000;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.interface .necklace1 {
+  background: url(../img/inventory-necklace-logo.png);
+  position: absolute;
+  width: 4.0104vw;
+  height: 4.0104vw;
+  left: 28.0729vw;
+  top: 24.7422vh;
+  border: 4px solid #000000;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.interface .necklace2 {
+  background: url(../img/inventory-necklace-logo.png);
+  position: absolute;
+  width: 4.0104vw;
+  height: 4.0104vw;
+  left: 28.0729vw;
+  top: 34.1237vh;
+  border: 4px solid #000000;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.interface .shield {
+  background: url(../img/inventory-shield-logo.png);
+  position: absolute;
+  width: 4.0104vw;
+  height: 4.0104vw;
+  left: 28.0729vw;
+  top: 43.5051vh;
+  border: 4px solid #000000;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.interface .head {
+  background: url(../img/inventory-head-logo.png);
+  position: absolute;
+  width: 4.0104vw;
+  height: 4.0104vw;
+  left: 32.96875vw;
+  top: 15.3608vh;
+  border: 4px solid #000000;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.interface .torso {
+  background: url(../img/inventory-torso-logo.png);
+  position: absolute;
+  width: 4.0104vw;
+  height: 4.0104vw;
+  left: 32.96875vw;
+  top: 24.7422vh;
+  border: 4px solid #000000;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.interface .legs {
+  background: url(../img/inventory-legs-logo.png);
+  position: absolute;
+  width: 4.0104vw;
+  height: 4.0104vw;
+  left: 32.96875vw;
+  top: 34.1237vh;
+  border: 4px solid #000000;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.interface .foots {
+  background: url(../img/inventory-foots-logo.png);
+  position: absolute;
+  width: 4.0104vw;
+  height: 4.0104vw;
+  left: 32.96875vw;
+  top: 43.5051vh;
+  border: 4px solid #000000;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.interface .find_nav {
+  position: absolute;
+  width: 24.9479vw;
+  height: 8.0412vh;
+  background: #514747;
+  left: 41.9271vw;
+  top: 8.2474vh;
+  border: 3px solid #000000;
+  border-radius: 11px;
+}
+.interface .find_nav .search-field .search {
+  position: absolute;
+  width: 12.2396vw;
+  height: 4.02vh;
+  background: #3E3737;
+  left: 1.5625vw;
+  top: 2.0618vh;
+  border-radius: 4px;
+  font-family: "Inter-Medium";
+  font-style: normal;
+  font-weight: 20.833vw;
+  font-size: 1.0416vw;
+  line-height: 2.4742vh;
+  color: #5F5F5F;
+}
+.interface .find_nav .search-field .search-logo {
+  position: absolute;
+  width: 1.40625vw;
+  height: 2.7835vh;
+  left: 12.2396vw;
+  top: 2.6804vh;
+}
+.interface .find_nav .sort {
+  position: absolute;
+  width: 9.375vw;
+  height: 3.7113vh;
+  background: #232323;
+  left: 15vw;
+  top: 2.371vh;
+  border-radius: 4px;
+  font-family: "MontserratAlternates-Medium";
+  font-style: normal;
+  font-weight: 20.833vw;
+  font-size: 0.833vw;
+  line-height: 2.7835vh;
+  color: white;
+}
+.interface .inventory {
+  box-sizing: border-box;
+  position: absolute;
+  width: 25.105vw;
+  height: 49.484vh;
+  background: #514747;
+  left: 41.927vw;
+  top: 19.279vh;
+  border: 0.15625vw solid #000000;
+  border-radius: 11px;
+  display: grid;
+  grid-template-columns: 18.037% 18.037% 18.037% 18.037% 18.037%;
+  grid-gap: 15px;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.interface .inventory .slot {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  background: darkgray;
+  left: 0px;
+  top: 0px;
+  border: 0.15625vw solid #000000;
+  border-radius: 5px;
+}
+.interface .inventory .diamond-helmet {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/diamond-helmet.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .diamond-torso {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/diamond-torso.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .diamond-legs {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/diamond-legs.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .diamond-foots {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/diamond-foots.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .chainmail-helmet {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/chainmail-helmet.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .chainmail-torso {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/chainmail-torso.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .chainmail-legs {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/chainmail-legs.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .chainmail-foots {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/chainmail-foots.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .leather-helmet {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/leather-helmet.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .leather-torso {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/leather-torso.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .leather-legs {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/leather-legs.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .leather-foots {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/leather-foots.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .nearcrowd-helmet {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/nearcrowd-helmet.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .nearcrowd-torso {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/nearcrowd-torso.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .nearcrowd-legs {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/nearcrowd-legs.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .nearcrowd-foots {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/nearcrowd-foots.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .bitcoin-necklace {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/bitcoin-necklace.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .gold-necklace {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/gold-necklace.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .dollar-necklace {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/dollar-necklace.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .sun-glasses {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/sun-glasses.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .kaspersky-shield {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/kaspersky-shield.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .mars-shield {
+  position: static;
+  width: 3.5416vw;
+  height: 7.01vh;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/mars-shield.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.interface .inventory .break {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

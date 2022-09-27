@@ -1,0 +1,377 @@
+@import "nullstyle.css";
+
+$dark-purple: #1E1E28;
+$dark-grey: #2D2D38;
+$my-grey: #514747;
+$light-black: #3E3737;
+$black: #000000;
+$fontINM: 'Inter-Medium';
+$fontMSM: 'MontserratAlternates-Medium';
+
+@mixin element($position, $width, $height, $left, $top, $color) {
+  position: $position;
+  width: $width;
+  height: $height;
+  background: $color;
+  left: $left;
+  top: $top;
+}
+
+@mixin image($position, $width, $height, $left, $top) {
+  position: $position;
+  width: $width;
+  height: $height;
+  left: $left;
+  top: $top;
+}
+
+@mixin border($type, $size, $color, $radius) {
+  border: $type $size $color;
+  border-radius: $radius;
+}
+
+@mixin text($family, $style, $weight, $size, $height, $color) {
+  font-family: $family;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}
+
+@mixin inventory-logo($left, $top){
+  position: absolute;
+
+  width: 4.0104vw;
+  height: 4.0104vw;//7.9381vh;
+  left: $left;
+  top: $top;
+
+  border: 4px solid #000000;
+  border-radius: 15px;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@mixin overflow ($overflow-x, $overflow-y) {
+  overflow-x: $overflow-x;
+  overflow-y: $overflow-y;
+}
+
+
+.company-logo {
+  @include image(absolute, 10.3553vw, 14.9484vh, 2.3958vw, 0.625vh);
+}
+
+.interface {
+  box-sizing: border-box;
+
+  @include element(absolute, 71.4583vw, 73.81vh, 13.021vw, 18.763vh, $dark-grey);
+  @include border(3px, solid, $black, 23px);
+
+  .reload{
+    @include image(absolute, 2.6041vw, 5.1546vh, 67.7083vw, 1.5464vh);
+    //filter: invert(25%) sepia(2%) saturate(1886%) hue-rotate(329deg) brightness(102%) contrast(86%);
+  }
+
+  .pudge {
+    @include element(absolute, 21.4583vw, 47.0103vh, 5.1041vw, 12.268vh, $my-grey);
+    @include border(3px, solid, $black, 29px);
+
+  .glass_on_Pudge {
+      @include image(absolute, 4.1666vw, 5.1546vh, 0px, 0px);
+      background-size:  4.1666vw 5.1546vh;
+  }
+
+  .necklace1_on_Pudge {
+    @include image(absolute, 4.1666vw, 5.1546vh, 0px, 0px);
+    background-size:  4.1666vw 5.1546vh;
+  }
+
+  .necklace2_on_Pudge {
+    @include image(absolute, 4.1666vw, 5.1546vh, 0px, 0px);
+    background-size:  4.1666vw 5.1546vh;
+  }
+
+  .shield_on_Pudge {
+    @include image(absolute, 4.1666vw, 5.1546vh, 0px, 0px);
+    background-size:  4.1666vw 5.1546vh;
+  }
+
+  .head_on_Pudge {
+    @include image(absolute, 4.1666vw, 5.1546vh, 0px, 0px);
+    background-size:  4.1666vw 5.1546vh;
+  }
+
+  .torso_on_Pudge {
+    @include image(absolute, 4.1666vw, 5.1546vh, 0px, 0px);
+    background-size:  4.1666vw 5.1546vh;
+  }
+
+  .legs_on_Pudge {
+    @include image(absolute, 4.1666vw, 5.1546vh, 0px, 0px);
+    background-size:  4.1666vw 5.1546vh;
+  }
+
+  .foots_on_Pudge {
+    @include image(absolute, 4.1666vw, 5.1546vh, 0px, 0px);
+    background-size:  4.1666vw 5.1546vh;
+  }
+
+    .hero {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .glass {
+    background: url(../img/inventory-glass-logo.png);
+    @include inventory-logo(28.0729vw, 15.3608vh);
+  }
+
+  .necklace1 {
+    background: url(../img/inventory-necklace-logo.png);
+    @include inventory-logo(28.0729vw, 24.7422vh);
+  }
+
+  .necklace2 {
+    background: url(../img/inventory-necklace-logo.png);
+    @include inventory-logo(28.0729vw, 34.1237vh);
+  }
+
+  .shield {
+    background: url(../img/inventory-shield-logo.png);
+    @include inventory-logo(28.0729vw, 43.5051vh)
+  }
+
+  .head {
+    background: url(../img/inventory-head-logo.png);
+    @include inventory-logo(32.96875vw, 15.3608vh);
+  }
+
+  .torso {
+    background: url(../img/inventory-torso-logo.png);
+    @include inventory-logo(32.96875vw, 24.7422vh);
+  }
+
+  .legs {
+    background: url(../img/inventory-legs-logo.png);
+    @include inventory-logo(32.96875vw, 34.1237vh);
+  }
+
+  .foots {
+    background: url(../img/inventory-foots-logo.png);
+    @include inventory-logo(32.96875vw, 43.5051vh);
+  }
+
+  .find_nav {
+    @include element(absolute, 24.9479vw, 8.0412vh, 41.9271vw, 8.2474vh, $my-grey);
+    @include border(3px, solid, $black, 11px);
+
+    .search-field {
+      .search {
+        @include element(absolute, 12.2396vw, 4.02vh, 1.5625vw, 2.0618vh, $light-black);
+        border-radius: 4px;
+        @include text($fontINM,normal,20.833vw, 1.0416vw, 2.4742vh, #5F5F5F);
+      }
+
+      .search-logo {
+          @include image(absolute, 1.40625vw, 2.7835vh, 12.2396vw, 2.6804vh);
+      }
+    }
+
+    .sort {
+        @include element(absolute, 9.375vw, 3.7113vh, 15vw, 2.371vh,#232323);
+        border-radius: 4px;
+        @include text('MontserratAlternates-Medium', normal, 20.833vw, 0.833vw, 2.7835vh, white)
+    }
+
+  }
+
+  .inventory {
+      box-sizing: border-box;
+      @include element(absolute, 25.105vw, 49.484vh, 41.927vw, 19.279vh, $my-grey);
+      @include border(0.15625vw, solid, $black, 11px);
+      display: grid;
+      grid-template-columns: 18.037% 18.037%  18.037%  18.037%  18.037% ;
+      grid-gap: 15px;
+      padding: 10px;
+      @include overflow(hidden, auto);
+
+      .slot {
+        @include element(static, 3.5416vw, 7.01vh, 0px, 0px, darkgray);// 3.5416vw
+        @include border(0.15625vw, solid, $black, 5px);
+      }
+
+      .diamond-helmet{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/diamond-helmet.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+      }
+
+      .diamond-torso {
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/diamond-torso.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+      }
+
+     .diamond-legs{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/diamond-legs.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+     }
+
+     .diamond-foots{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/diamond-foots.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+     }
+
+
+
+    .chainmail-helmet{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/chainmail-helmet.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+      }
+
+      .chainmail-torso {
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/chainmail-torso.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+      }
+
+     .chainmail-legs{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/chainmail-legs.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+     }
+
+     .chainmail-foots{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/chainmail-foots.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+     }
+
+
+     .leather-helmet{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/leather-helmet.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+      }
+
+      .leather-torso {
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/leather-torso.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+      }
+
+     .leather-legs{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/leather-legs.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+     }
+
+     .leather-foots{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/leather-foots.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+     }
+
+
+
+      .nearcrowd-helmet{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/nearcrowd-helmet.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+      }
+
+      .nearcrowd-torso {
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/nearcrowd-torso.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+      }
+
+     .nearcrowd-legs{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/nearcrowd-legs.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+     }
+
+     .nearcrowd-foots{
+         @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+         background-image: url("../img/nearcrowd-foots.png");
+         background-size: 100%;
+         background-repeat: no-repeat;
+     }
+
+
+
+     .bitcoin-necklace{
+       @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+       background-image: url("../img/bitcoin-necklace.png");
+       background-size: 100%;
+       background-repeat: no-repeat;
+     }
+
+     .gold-necklace{
+       @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+       background-image: url("../img/gold-necklace.png");
+       background-size: 100%;
+       background-repeat: no-repeat;
+     }
+
+     .dollar-necklace{
+       @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+       background-image: url("../img/dollar-necklace.png");
+       background-size: 100%;
+       background-repeat: no-repeat;
+     }
+
+      .sun-glasses{
+        @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+        background-image: url("../img/sun-glasses.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+
+      .kaspersky-shield{
+        @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+        background-image: url("../img/kaspersky-shield.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+
+      .mars-shield{
+        @include image(static, 3.5416vw, 7.01vh, 0px, 0px);
+        background-image: url("../img/mars-shield.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+
+      .break {
+        width: 100%
+      }
+
+    }
+
+}
+
+
+

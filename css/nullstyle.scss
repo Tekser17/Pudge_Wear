@@ -1,0 +1,62 @@
+$dark-purple: #1E1E28;
+$dark-grey: #2D2D38;
+$my-grey: #514747;
+$light-black: #3E3737;
+$black: #000000;
+$fontINM: 'Inter-Medium';
+$fontMSM: 'MontserratAlternates-Medium';
+
+@mixin create_element($position, $width, $height, $left, $top, $color) {
+  position: $position;
+  width: $width;
+  height: $height;
+  background: $color;
+  left: $left;
+  top: $top;
+}
+
+@mixin create_image($position: absolute, $width, $height, $color, $left, $top) {
+  position: $position;
+  width: $width;
+  height: $height;
+  left: $left;
+  top: $top;
+}
+
+@mixin create_border($type: solid, $size, $color, $radius) {
+  border: $type $size $color;
+  border-radius: $radius;
+}
+
+@mixin create_text($family, $style:normal, $weight, $size, $height, $color) {
+  font-family: $family;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}
+
+@font-face {
+    font-family: "MontserratAlternates-Medium";
+    src: url("/fonts/MontserratAlternates-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("/fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+input, select, button {
+  border: none;
+  outline: none;
+}
+
+body {
+  position: relative;
+  background: #1E1E28;
+}
